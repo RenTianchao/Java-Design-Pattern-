@@ -36,4 +36,8 @@ public class OrderPizza2 {
 
         }
     }
+    public static void main(String[] args){
+        new OrderPizza2( );
+        System.out.println("exit program");
+    }
 }

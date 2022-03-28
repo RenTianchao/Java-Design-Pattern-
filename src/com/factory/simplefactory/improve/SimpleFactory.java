@@ -34,6 +34,9 @@ public class SimpleFactory {
         } else if (orderType.equals("pepper")){
             pizza = new PepperPizza();
             pizza.setName("hujiao pisa");
+        }else if (orderType.equals("chinese")){
+            pizza = new ChinesePizza();
+            pizza.setName("中国披萨");
         }
         return pizza;
 
